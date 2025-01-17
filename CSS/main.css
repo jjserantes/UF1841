@@ -89,14 +89,11 @@ main {
 }
 
 aside {
-   
+    background-color: #f9f9f9;
     padding: 5px;
     width: 30%;
 }
 
-.asidemovil {
-    display: none;
-}
 
 aside li {
     font-size: 20px;
@@ -113,18 +110,22 @@ aside i {
     overflow: auto;
 }
 
-.entradas {
+.entradas{
     margin-right: 10px;
-    margin-bottom: 10px;
     background-color: grey;
+    padding-top: 10px; /* Añadir espacio arriba */
+    padding-bottom: 20px; /* Añadir espacio abajo */
+    margin-top: 20px; /* Añadir margen arriba */
+    margin-bottom: 10px; /* Añadir margen abajo */
 }
-
 .categorias {
     margin-right: 10px;
-    margin-bottom: 10px;
     background-color: grey;
+    padding-top: 10px; /* Añadir espacio arriba */
+    padding-bottom: 20px; /* Añadir espacio abajo */
+    margin-top: 10px; /* Añadir margen arriba */
+    margin-bottom: 10px; /* Añadir margen abajo */
 }
-
 .cursos-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -151,18 +152,19 @@ aside i {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    
 }
 
 .cursos-grid img {
-    width: 150px; /* Ajusta el tamaño deseado */
-    height: 150px; /* Ajusta el tamaño deseado */
+    width: 200px; /* Ajusta el tamaño deseado */
+    height: 200px; /* Ajusta el tamaño deseado */
     object-fit: contain;
     margin: 10px 0; /* Opcional: para agregar un poco de espacio alrededor de las imágenes */
 }
 
 /* Pie de página */
 .footer { 
-    width: 96%; 
+    width: 95%; 
     background: transparent; 
     border-top: 1px solid #000; 
     display: flex; 
